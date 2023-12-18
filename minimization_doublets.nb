@@ -1,0 +1,133 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      4404,        123]
+NotebookOptionsPosition[      4056,        109]
+NotebookOutlinePosition[      4452,        125]
+CellTagsIndexPosition[      4409,        122]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[{
+ RowBox[{"\[Mu]12", "=", 
+  RowBox[{
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{"2", " ", "b1", " ", 
+      SuperscriptBox["vL", "2"], " ", "\[Alpha]1"}], "+", 
+     RowBox[{"2", " ", "b1", " ", 
+      SuperscriptBox["vR", "2"], " ", "\[Alpha]2"}], "+", 
+     RowBox[{"2", " ", "b1", " ", 
+      SuperscriptBox["vL", "2"], " ", "\[Alpha]5"}], "+", 
+     RowBox[{"2", " ", "b1", " ", 
+      SuperscriptBox["vR", "2"], " ", "\[Alpha]6"}], "+", 
+     RowBox[{"4", " ", "b2", " ", 
+      SuperscriptBox["vR", "2"], " ", "\[Alpha]8"}], "+", 
+     RowBox[{"4", " ", 
+      SuperscriptBox["b1", "3"], " ", "\[Lambda]1"}], "+", 
+     RowBox[{"4", " ", "b1", " ", 
+      SuperscriptBox["b2", "2"], " ", "\[Lambda]1"}], "+", 
+     RowBox[{"16", " ", "b1", " ", 
+      SuperscriptBox["b2", "2"], " ", "\[Lambda]2"}], "+", 
+     RowBox[{"12", " ", 
+      SuperscriptBox["b1", "2"], " ", "b2", " ", "\[Lambda]3"}], "+", 
+     RowBox[{"4", " ", 
+      SuperscriptBox["b2", "3"], " ", "\[Lambda]3"}], "+", 
+     RowBox[{"8", " ", "b1", " ", 
+      SuperscriptBox["b2", "2"], " ", "\[Lambda]4"}], "-", 
+     RowBox[{"2", " ", "b1", " ", "\[Mu]22"}], "-", 
+     RowBox[{"2", " ", "b2", " ", "\[Mu]22"}], "+", 
+     RowBox[{"\[Alpha]7", " ", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{"4", " ", "b2"}], ")"}], ".", 
+       SuperscriptBox["vL", "2"]}]}]}], ")"}], "/", 
+   RowBox[{"(", 
+    RowBox[{"2", " ", "b1"}], ")"}]}]}], "\[IndentingNewLine]", 
+ RowBox[{"\[Mu]22", "=", 
+  RowBox[{
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{"2", " ", "b2", " ", 
+      SuperscriptBox["vL", "2"], " ", "\[Alpha]1"}], "+", 
+     RowBox[{"2", " ", "b2", " ", 
+      SuperscriptBox["vR", "2"], " ", "\[Alpha]2"}], "+", 
+     RowBox[{"2", " ", "b2", " ", 
+      SuperscriptBox["vL", "2"], " ", "\[Alpha]3"}], "+", 
+     RowBox[{"2", " ", "b2", " ", 
+      SuperscriptBox["vR", "2"], " ", "\[Alpha]4"}], "+", 
+     RowBox[{"4", " ", "b1", " ", 
+      SuperscriptBox["vR", "2"], " ", "\[Alpha]8"}], "+", 
+     RowBox[{"4", " ", 
+      SuperscriptBox["b1", "2"], " ", "b2", " ", "\[Lambda]1"}], "+", 
+     RowBox[{"4", " ", 
+      SuperscriptBox["b2", "3"], " ", "\[Lambda]1"}], "+", 
+     RowBox[{"16", " ", 
+      SuperscriptBox["b1", "2"], " ", "b2", " ", "\[Lambda]2"}], "+", 
+     RowBox[{"4", " ", 
+      SuperscriptBox["b1", "3"], " ", "\[Lambda]3"}], "+", 
+     RowBox[{"12", " ", "b1", " ", 
+      SuperscriptBox["b2", "2"], " ", "\[Lambda]3"}], "+", 
+     RowBox[{"8", " ", 
+      SuperscriptBox["b1", "2"], " ", "b2", " ", "\[Lambda]4"}], "-", 
+     RowBox[{"2", " ", "b2", " ", "\[Mu]12"}], "+", 
+     RowBox[{"\[Alpha]7", " ", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{"4", " ", "b1"}], ")"}], ".", 
+       SuperscriptBox["vL", "2"]}]}]}], ")"}], "/", 
+   RowBox[{"(", 
+    RowBox[{"2", " ", 
+     RowBox[{"(", 
+      RowBox[{"b1", "+", "b2"}], ")"}]}], ")"}]}]}], "\[IndentingNewLine]", 
+ RowBox[{"\[Mu]42", "=", 
+  RowBox[{
+   RowBox[{
+    SuperscriptBox["b1", "2"], " ", "\[Alpha]2"}], "+", 
+   RowBox[{
+    SuperscriptBox["b2", "2"], " ", "\[Alpha]2"}], "+", 
+   RowBox[{
+    SuperscriptBox["b2", "2"], " ", "\[Alpha]4"}], "+", 
+   RowBox[{
+    SuperscriptBox["b1", "2"], " ", "\[Alpha]6"}], "+", 
+   RowBox[{"4", " ", "b1", " ", "b2", " ", "\[Alpha]8"}], "+", 
+   RowBox[{"2", " ", 
+    SuperscriptBox["vR", "2"], " ", "\[Lambda]6"}], "+", 
+   RowBox[{
+    SuperscriptBox["vL", "2"], " ", "\[Lambda]7"}]}]}]}], "Input",ExpressionUU\
+ID->"96f72812-4cdf-4019-920f-7e0b26eb84e0"]
+},
+WindowSize->{1350, 685},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"12.3 for Microsoft Windows (64-bit) (July 9, 2021)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"2a428126-5985-476e-945e-897eafd817d9"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 3494, 87, 75, "Input",ExpressionUUID->"96f72812-4cdf-4019-920f-7e0b26eb84e0"]
+}
+]
+*)
+
+(* End of internal cache information *)
+
